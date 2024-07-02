@@ -20,11 +20,6 @@ from drf_yasg.views import get_schema_view
 from drf_yasg import openapi
 import app.views as views
 
-from rest_framework_simplejwt.views import (
-    TokenObtainPairView,
-    TokenRefreshView,
-)
-
 
 schema_view = get_schema_view(
     openapi.Info(
